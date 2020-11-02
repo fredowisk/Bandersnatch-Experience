@@ -1,0 +1,13 @@
+{
+  "name": "jsexpert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
